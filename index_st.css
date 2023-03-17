@@ -1,0 +1,69 @@
+.fixed {
+    /* height: 200px;
+width: 200px; */
+    position: fixed;
+    /* background: rgb(242, 89, 43);; */
+    /* top: 24px; */
+    right: 0px;
+    bottom: 0px;
+    animation: color-change 10s linear infinite;
+}
+
+.fixed:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: rgb(242, 43, 43);
+    }
+
+    6% {
+        background-color: rgb(242, 146, 43);
+    }
+
+    12% {
+        background-color: rgb(242, 182, 43);
+    }
+
+    18% {
+        background-color: rgb(242, 235, 43);
+    }
+
+    28% {
+        background-color: rgb(176, 242, 43);
+    }
+
+    44% {
+        background-color: rgb(133, 242, 43);
+    }
+
+    50% {
+        background-color: rgb(53, 242, 43);
+    }
+
+    58% {
+        background-color: rgb(43, 242, 146);
+    }
+
+    64% {
+        background-color: rgb(43, 239, 242);
+    }
+
+    75% {
+        background-color: rgb(43, 126, 242);
+    }
+
+    82% {
+        background-color: rgb(143, 43, 242);
+    }
+
+    94% {
+        background-color: rgb(242, 43, 235);
+    }
+
+    100% {
+        background-color: rgb(242, 43, 43);
+    }
+}

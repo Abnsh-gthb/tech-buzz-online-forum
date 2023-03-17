@@ -1,0 +1,31 @@
+.pst_by{
+    padding: 4px 6px;
+    background-color: rgb(199, 226, 240);
+    border-radius: 4px;
+    display: inline-block;
+    /* color: white; */
+}
+.min-height{
+    min-height: 20rem;
+}
+.fixed {
+    /* height: 200px;
+    width: 200px; */
+   position: fixed;
+   /* background: rgb(242, 89, 43);; */
+   /* top: 24px; */
+   right: 0px;
+   bottom: 0px;
+}
+
+.d-searchbar{
+    display: none;
+}
+.searchbar{
+    display: block;
+    padding: 0 12px ;
+    border-style: hidden;
+    border-radius: 10px;
+    margin: auto 0.75rem;
+    /* animation: search .5s ease-in; */
+}
